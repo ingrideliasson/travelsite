@@ -7,13 +7,16 @@ import Testimonials from './components/Testimonials';
 import CTA from './components/CTA';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 function App() {
   return (
     <div className="text-gray-800 scroll-smooth">
       <Navbar />
       <Hero />
-      <Destinations />
+      <Destinations/>
       <Features />
       <Testimonials />
       <CTA />

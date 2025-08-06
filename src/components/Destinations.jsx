@@ -1,27 +1,27 @@
 const destinations = [
-  { title: "GREECE", image: "/images/greece.jpg"},
-  { title: "ITALY", image: "/images/italy.jpg"},
-  { title: "TANZANIA", image: "/images/tanzania.jpg"},
-  { title: "MALAYSIA", image: "/images/malaysia.jpg"},
-  { title: "PERU", image: "/images/peru.jpg"},
-  { title: "AUSTRALIA", image: "/images/australia.jpg"},
-  { title: "HONG KONG", image: "/images/hongkong.jpg"},
-  { title: "INDONESIA", image: "/images/indonesia2.jpg"},
+  { title: "GREECE", image: "/images/greeceM.jpeg"},
+  { title: "ITALY", image: "/images/italyM.jpeg"},
+  { title: "TANZANIA", image: "/images/tanzaniaM.jpeg"},
+  { title: "MALAYSIA", image: "/images/malaysiaM.jpeg"},
+  { title: "PERU", image: "/images/peruM.jpeg"},
+  { title: "AUSTRALIA", image: "/images/australiaM.jpeg"},
+  { title: "HONG KONG", image: "/images/hongkongM.jpeg"},
+  { title: "INDONESIA", image: "/images/indonesiaM.jpeg"},
 
 
 ];
 
 export default function Destinations() {
   return (
-    <section id="destinations" className="py-8 px-6 bg-teal-600 font-baskerville">
-      <h2 className="text-3xl font-baskerville font-light text-white text-center mb-8">
+    <section id="destinations" className="bg-white font-baskerville scroll-mt-16">
+      <h2 className="text-4xl font-poppins font-bold text-blue-950 text-center py-8">
         Top Destinations
       </h2>
-      <div className="grid md:grid-cols-4 gap-4 md:gap-0">
+      <div className="grid md:grid-cols-4 gap-4 md:gap-8 px-4">
         {destinations.map((dest, idx) => (
           <div
             key={idx}
-            className="relative bg-white h-96 md:h-[600px] overflow-hidden"
+            className="relative bg-white h-96 md:h-[600px] overflow-hidden rounded-lg"
           >
             <img
               src={dest.image}

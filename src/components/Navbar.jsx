@@ -26,16 +26,16 @@ export default function Navbar() {
       }`}
     >
       <nav className="flex items-center justify-between px-6 py-4 md:px-12 text-gray-800 font-poppins">
-        <div className="text-xl font-bold text-white">Wanderlust</div>
+        <div className="text-2xl font-bold text-white">Wanderlust</div>
 
         {/* Desktop menu */}
-        <ul className="hidden md:flex gap-8 text-sm font-medium">
+        <ul className="hidden md:flex gap-8 text-sm font-semibold">
           {navItems.map((item) => (
             <li key={item.href}>
               <a
                 href={item.href}
-                className={`hover:text-gray-200 transition ${
-                  scrolled ? "text-white" : "text-white"
+                className={`hover:font-bold transition ${
+                  scrolled ? "text-blue-950" : "text-white"
                 }`}
               >
                 {item.label}

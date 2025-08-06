@@ -1,27 +1,49 @@
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
+
+
+
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white py-10 px-6">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 text-center md:text-left">
-        <div>
-          <h3 className="font-bold text-lg mb-2">Wanderlust Travel Co.</h3>
-          <p className="text-gray-400">© {new Date().getFullYear()} All rights reserved.</p>
-        </div>
-        <div>
-          <h4 className="font-semibold mb-2">Quick Links</h4>
-          <ul className="space-y-1 text-gray-400">
-            <li><a href="#destinations" className="hover:text-white">Destinations</a></li>
-            <li><a href="#about" className="hover:text-white">About Us</a></li>
-            <li><a href="#contact" className="hover:text-white">Contact</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4 className="font-semibold mb-2">Follow Us</h4>
-          <div className="flex justify-center md:justify-start gap-4">
-            <a href="#" className="hover:text-white">🌍</a>
-            <a href="#" className="hover:text-white">📸</a>
-            <a href="#" className="hover:text-white">🐦</a>
-          </div>
-        </div>
+    <footer className="bg-sky-950 text-white py-10 px-6 font-poppins flex items-center justify-center gap-8">
+
+      <div className="text-gray-300 flex flex-col items-center justify-center gap-2 mt-4">
+        <h3 className="text-gray-300 font-medium">Wanderlust Travel Co.</h3>
+        <ul className="text-gray-400 text-sm flex flex-col items-center">
+          <li>Solgatan 25, 102 92 Göteborg</li>
+          <li>+46 31 321 03</li>
+        </ul>
+      </div>
+
+      <div className="flex flex-col items-center text-center">
+        <div className="text-gray-300 font-medium mb-3">Follow Us</div>
+          <nav className="flex space-x-4 text-2xl text-gray-400">
+            <a
+              href="https://www.instagram.com"  
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-200"
+            >
+              <FaInstagram />
+            </a>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-200"
+            >
+              <FaFacebookSquare />
+            </a>
+            <a
+              href="https://www.tiktok.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-200"
+            >
+              <FaTiktok />
+            </a>
+          </nav>
       </div>
     </footer>
   );
