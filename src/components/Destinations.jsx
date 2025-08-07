@@ -11,7 +11,7 @@ const destinations = [
   },
   {
     title: "TANZANIA",
-    image: `${process.env.PUBLIC_URL}/image/tanzaniaM.jpeg`,
+    image: `${process.env.PUBLIC_URL}/images/tanzaniaM.jpeg`,
     description: "Safari adventures and Mount Kilimanjaro. Witness the Great Migration and experience Africa’s wild heart up close."
   },
   {
