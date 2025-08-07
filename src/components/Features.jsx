@@ -34,7 +34,7 @@ export default function Features() {
         <h2 className="text-4xl text-blue-950 font-bold font-poppins mb-20">Why Travel With Us?</h2>
         <div className="grid md:grid-cols-4 gap-8 pb-12">
           {features.map((f, idx) => (
-            <div key={idx} className="bg-white/60 p-6 rounded-lg font-poppins shadow hover:shadow-lg transition flex flex-col items-center">
+            <div key={idx} className="bg-white/60 p-6 rounded-lg font-arial shadow hover:shadow-lg transition flex flex-col items-center">
               <div className="text-5xl mb-4 ">{f.icon}</div>
               <h3 className="font-semibold text-xl mb-2">{f.title}</h3>
               <p className="text-gray-600 text-sm">{f.description}</p>

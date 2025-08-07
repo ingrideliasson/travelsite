@@ -82,7 +82,7 @@ export default function Testimonials() {
         </h2>
         <Slider {...settings}>
           {testimonials.map((t, idx) => (
-            <div key={idx} className="px-4 pb-8">
+            <div key={idx} className="px-4 pb-8 font-arial">
               <div className="bg-cyan-600 p-6 rounded-lg shadow text-center">
                 <img
                   src={t.image}
@@ -90,7 +90,7 @@ export default function Testimonials() {
                   className="w-16 h-16 rounded-full mx-auto mb-4 object-cover"
                 />
                 <p className="text-white italic">“{t.quote}”</p>
-                <p className="mt-4 font-semibold text-gray-800">{t.name}</p>
+                <p className="mt-4 font-semibold text-gray-200">{t.name}</p>
               </div>
             </div>
           ))}

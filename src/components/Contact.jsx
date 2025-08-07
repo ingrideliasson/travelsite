@@ -6,7 +6,8 @@ export default function Contact() {
     style={{ backgroundImage: "url('/images/hero2.jpg')" }}
     >
       <div className="max-w-2xl mx-auto flex flex-col justify-center mt-24">
-        <h2 className="text-4xl font-poppins text-blue-950 font-bold mb-14 text-center">Questions? Get in Touch!</h2>
+        <h2 className="text-4xl font-poppins text-blue-950 font-bold text-center">Questions? Get in Touch!</h2>
+        <p className="mb-14 text-center font-montserrat text-blue-950">We answer all inquires within 24 hours.</p>
         <form className="space-y-12 ">
           <div>
             <input
@@ -16,7 +17,6 @@ export default function Contact() {
             />
           </div>
           <div>
-            {/* <label className="block mb-2 font-medium">Email</label> */}
             <input
               type="email"
               className="w-full border border-gray-300 p-3 rounded"
@@ -24,7 +24,6 @@ export default function Contact() {
             />
           </div>
           <div>
-            {/* <label className="block mb-2 font-medium">Message</label>  */}
             <textarea
               rows="5"
               className="w-full border border-gray-300 p-3 rounded"
