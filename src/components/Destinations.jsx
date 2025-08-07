@@ -1,42 +1,42 @@
 const destinations = [
   {
     title: "GREECE",
-    image: `url(${process.env.PUBLIC_URL}/images/greeceM.jpeg)`,
+    image: `${process.env.PUBLIC_URL}/images/greeceM.jpeg`,
     description: "Island-hopping, ancient ruins, and seaside sunsets. Explore whitewashed villages, fresh seafood, and the Aegean breeze."
   },
   {
     title: "ITALY",
-    image: `url(${process.env.PUBLIC_URL}/images/italyM.jpeg)`,
+    image: `${process.env.PUBLIC_URL}/images/italyM.jpeg`,
     description: "Art, pasta, vineyards, and romantic cities. From Rome to Venice, every corner tells a story of beauty and flavor."
   },
   {
     title: "TANZANIA",
-    image: `url(${process.env.PUBLIC_URL}/images/tanzaniaM.jpeg)`,
+    image: `${process.env.PUBLIC_URL}/image/tanzaniaM.jpeg`,
     description: "Safari adventures and Mount Kilimanjaro. Witness the Great Migration and experience Africa’s wild heart up close."
   },
   {
     title: "MALAYSIA",
-    image: `url(${process.env.PUBLIC_URL}/images/malaysiaM.jpeg)`,
+    image: `${process.env.PUBLIC_URL}/images/malaysiaM.jpeg`,
     description: "Cultural fusion and rainforest escapes. Discover vibrant cities, lush jungles, and hidden island paradises."
   },
   {
     title: "PERU",
-    image: `url(${process.env.PUBLIC_URL}/images/peruM.jpeg)`,
+    image: `${process.env.PUBLIC_URL}/images/peruM.jpeg`,
     description: "Machu Picchu and Andean explorations. Uncover ancient civilizations and dramatic landscapes in the Sacred Valley."
   },
   {
     title: "AUSTRALIA",
-    image: `url(${process.env.PUBLIC_URL}/images/australiaM.jpeg)`,
+    image: `${process.env.PUBLIC_URL}/images/australiaM.jpeg`,
     description: "Coral reefs, surf towns, and the outback. Dive into diverse ecosystems and laid-back coastal culture."
   },
   {
     title: "HONG KONG",
-    image: `url(${process.env.PUBLIC_URL}/images/hongkongM.jpeg)`,
+    image: `${process.env.PUBLIC_URL}/images/hongkongM.jpeg`,
     description: "Skyline views and street food vibes. A dynamic blend of East and West with nonstop energy and flavor."
   },
   {
     title: "INDONESIA",
-    image: `url(${process.env.PUBLIC_URL}/images/indonesiaM.jpeg)`,
+    image: `${process.env.PUBLIC_URL}/images/indonesiaM.jpeg`,
     description: "Island getaways and tropical serenity. From Bali to Borneo, every island is a world of its own to discover."
   },
 ];

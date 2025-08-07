@@ -29,27 +29,27 @@ const testimonials = [
   {
     name: "Emily R.",
     quote: "The trip was perfectly planned. I’ll never forget the sunrise hike in Peru!",
-    image: `url(${process.env.PUBLIC_URL}/images/woman2.png)`,
+    image: `${process.env.PUBLIC_URL}/images/woman2.png`,
   },
   {
     name: "James L.",
     quote: "Everything from the flights to the food was handled with care.",
-    image: `url(${process.env.PUBLIC_URL}/images/man1.png)`,
+    image: `${process.env.PUBLIC_URL}/images/man1.png`,
   },
   {
     name: "Sofia K.",
     quote: "From start to finish, it felt like a luxury experience. Amazing attention to detail!",
-    image: `url(${process.env.PUBLIC_URL}/images/woman1.png)`,
+    image: `${process.env.PUBLIC_URL}/images/woman1.png`,
   },
   {
     name: "Hans S.",
     quote: "I made lifelong friends and saw breathtaking places.",
-    image: `url(${process.env.PUBLIC_URL}/images/man2.png)`,
+    image: `${process.env.PUBLIC_URL}/images/man2.png`,
   },
   {
     name: "Alice B.",
     quote: "Truly a stress-free and memorable journey. Already planning my next one!",
-    image: `url(${process.env.PUBLIC_URL}/images/woman3.png)`,
+    image: `${process.env.PUBLIC_URL}/images/woman3.png`,
   },
 ];
 
