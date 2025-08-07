@@ -44,13 +44,12 @@ export default function BookingView() {
       alert("This function is not yet implemented!");
     }
   };
-// style={{ backgroundImage: "url('/images/beach.jpg')" }}
 
   return (
     <>
     <Navbar  />
       <div className="min-h-screen pt-24 bg-cover bg-center"
-          style={{ backgroundImage: "url('/images/bg2.jpg')" }}>
+          style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg2.jpg)` }}>
 
         <section className="max-w-4xl mx-auto px-4 py-12 font-poppins" >
           <h1 className="text-3xl md:text-4xl font-bold text-blue-950 mb-8 text-center">

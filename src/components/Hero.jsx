@@ -3,7 +3,7 @@ export default function Hero() {
     <section
       id="hero"
       className="bg-cover bg-center h-screen flex items-center justify-center text-white"
-      style={{ backgroundImage: "url('/images/hero.jpg')" }}
+      style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/hero.jpg)` }}
     >
       <div className="text-center">
         <h1 className="text-4xl md:text-8xl font-bold md:font-medium font-playfair tracking-wider mt-24 md:mr-8">

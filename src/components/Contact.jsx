@@ -3,7 +3,7 @@ export default function Contact() {
     <section 
     id="contact" 
     className="py-20 px-6 bg-white bg-cover bg-center min-h-screen"
-    style={{ backgroundImage: "url('/images/hero2.jpg')" }}
+    style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/hero2.jpg)` }}
     >
       <div className="max-w-2xl mx-auto flex flex-col justify-center mt-24">
         <h2 className="text-4xl font-poppins text-blue-950 font-bold text-center">Questions? Get in Touch!</h2>
